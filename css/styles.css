@@ -1,0 +1,203 @@
+:root {
+	--main-color: #2e2f42;
+	--text-color: #434455;
+	--secondary-color: #f4f4fd;
+	--brand-color: #4d5ae5;
+	--accent-color: #e7e9fc;
+	--hover-focus-color: #404bbf;
+	--background-color: #fff;
+
+	--primary-font: "Roboto", sant-serif;
+	--secondary-font: "Raleway", sans-serif;
+}
+
+body {
+	font-family: var(--primary-font);
+	color: var(--main-color);
+	background-color: var(--background-color);
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+/* =====================Components================= */
+.order-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.04em;
+	color: var(--background-color);
+	background-color: var(--brand-color);
+	cursor: pointer;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+	background-color: var(--hover-focus-color);
+}
+
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--main-color);
+}
+
+.subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--main-color);
+}
+.description {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--text-color);
+}
+/* ====================/Components================= */
+
+/* =====================Header===================== */
+.logo-link {
+	font-family: var(--secondary-font);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--brand-color);
+}
+.logo-link span {
+	color: var(--main-color);
+}
+
+.menu-link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--main-color);
+}
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+	color: var(--hover-focus-color);
+}
+
+.adress-link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--text-color);
+}
+.adress-link:hover,
+.adress-link:focus {
+	color: var(--hover-focus-color);
+}
+/* =====================/Header==================== */
+
+/* =====================Hero====================== */
+.hero {
+	background-color: var(--main-color);
+}
+.hero-title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--background-color);
+}
+/* ====================/Hero====================== */
+
+/* =====================Team====================== */
+.team {
+	background-color: var(--secondary-color);
+}
+/* ====================/Team====================== */
+
+/* ====================Footer====================== */
+.footer {
+	background-color: var(--main-color);
+}
+.footer-logo-link {
+	font-family: var(--secondary-font);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--brand-color);
+}
+.footer-logo-link span {
+	font-family: var(--secondary-font);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--secondary-color);
+}
+
+.footer-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--accent-color);
+}
+/* ===================/Footer====================== */
+
+/* ===================Portfolio====================== */
+.filters-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.04em;
+	color: var(--brand-color);
+	background-color: var(--accent-color);
+	cursor: pointer;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+	color: var(--background-color);
+	background-color: var(--hover-focus-color);
+}
+
+/* ==================/Portfolio====================== */
