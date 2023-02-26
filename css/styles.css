@@ -215,7 +215,7 @@ address {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 45px;
+	gap: 48px;
 }
 
 .hero-title {
@@ -289,8 +289,7 @@ address {
 	padding-bottom: 100px;
 	background-color: var(--main-color);
 }
-.footer-container {
-}
+
 .footer-logo-link {
 	margin-bottom: 16px;
 	font-family: var(--secondary-font);
