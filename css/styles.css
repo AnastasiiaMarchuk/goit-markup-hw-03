@@ -207,7 +207,6 @@ address {
 .hero {
 	padding-top: 188px;
 	padding-bottom: 188px;
-	border: 1px solid #000000;
 	background-color: var(--main-color);
 }
 
