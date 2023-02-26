@@ -205,7 +205,8 @@ address {
 
 /* =====================Hero====================== */
 .hero {
-	padding: 188px 473px;
+	padding-top: 188px;
+	padding-bottom: 188px;
 	border: 1px solid #000000;
 	background-color: var(--main-color);
 }
@@ -218,6 +219,7 @@ address {
 }
 
 .hero-title {
+	width: 496px;
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
@@ -259,6 +261,7 @@ address {
 	padding-top: 120px;
 	background-color: var(--secondary-color);
 }
+
 .team-list {
 	display: flex;
 	padding: 0;
@@ -282,13 +285,11 @@ address {
 
 /* ====================Footer====================== */
 .footer {
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-color: var(--main-color);
 }
 .footer-container {
-	padding-top: 100px;
-	padding-left: auto;
-	padding-bottom: 100px;
-	padding-right: 156px;
 }
 .footer-logo-link {
 	margin-bottom: 16px;
@@ -325,15 +326,14 @@ address {
 /* ===================/Footer====================== */
 
 /* ===================Portfolio====================== */
-.filters-btn-container {
-	padding-top: 96px;
-	padding-bottom: 72px;
-}
+
 .filters-btn-list {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 24px;
+	padding-top: 96px;
+	margin-bottom: 72px;
 }
 
 .filters-btn {
@@ -348,7 +348,7 @@ address {
 	align-items: center;
 	letter-spacing: 0.04em;
 	color: var(--brand-color);
-	background-color: var(--accent-color);
+	background-color: var(--secondary-color);
 	cursor: pointer;
 }
 .filters-btn:hover,
